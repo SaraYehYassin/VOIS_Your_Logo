@@ -35,9 +35,7 @@ public class CheckOutAndConfirmOrderTest extends TestBase{
 	Faker fakeData = new Faker ();
 	String email = fakeData.internet().emailAddress();
 	
-	
-	
-	   
+		   
 	@BeforeClass
 	public void OpenURL ()
 	{
